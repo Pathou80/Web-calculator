@@ -1,11 +1,9 @@
 function addnumbers () {
-let a = document.getelementbyid("box1").value
+let a = document.getElementById("box1").value
 const b = document.getElementById("box2").value
-a = 1
-b = 2
-var c = number(a) + number(b)
 
-
+var c = Number(a) + Number(b)
+console.log(c)
 
 document.getElementById("box3").value = c
 }
